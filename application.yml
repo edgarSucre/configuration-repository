@@ -9,3 +9,14 @@ spring:
           fetchRegistry: true
         serviceUrl:
           defaultZone: http://localhost:8761/eureka/
+spring.jpa.database: "POSTGRESQL"
+spring.jpa.show-sql: "true"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
+spring.jpa.properties.hibernate.temp.use_jdbc_metadata_defaults: false
+spring.datasource.platform: "postgres"
+spring.datasource.url: "jdbc:postgresql://localhost:5432/eagle_eye_local"
+spring.datasource.username: "postgres"
+spring.datasource.password: "1sX84HtjEMys"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.database.driverClassName: "org.postgresql.Driver"
