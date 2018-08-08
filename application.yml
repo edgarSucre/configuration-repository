@@ -8,21 +8,4 @@ spring:
           registerWithEureka: true
           fetchRegistry: true
         serviceUrl:
-          defaultZone: http://localhost:8761/eureka/
-  jpa:
-    database: "POSTGRESQL"
-    show-sql: "true"
-    properties:
-      hibernate:
-        dialect: "org.hibernate.dialect.PostgreSQLDialect"
-        temp:
-          use_jdbc_metadata_defaults: false
-  datasource:
-    platform: "postgres"
-    url: "jdbc:postgresql://localhost:5432/eagle_eye_local"
-    username: "postgres"
-    password: "1sX84HtjEMys"
-    testWhileIdle: "true"
-    validationQuery: "SELECT 1"
-  database:
-    driverClassName: "org.postgresql.Driver"
+          defaultZone: http://localhost:8761/eureka/  
